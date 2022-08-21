@@ -6,5 +6,5 @@ test("renders learn react link", () => {
   render(<App />);
 
   expect(screen.getByText(/learn react/i)).toBeInTheDocument();
-  expect(screen.getByText(/esto es un error/i)).toBeInTheDocument();
+  // expect(screen.getByText(/esto es un error/i)).toBeInTheDocument();
 });
